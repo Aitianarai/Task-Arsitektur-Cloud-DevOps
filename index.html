@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO: title dan description tampil di hasil pencarian Google -->
+  <title>Joe Lenry | Portofolio Mahasiswa Teknik Informatika</title>
+  <meta name="description" content="Portofolio Joe Lenry, mahasiswa Teknik Informatika. Lihat profil, keahlian, proyek, dan kontak.">
+
+  <!-- Menghubungkan file CSS. Nama file harus sama persis dengan file-nya: style.css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ========== HEADER & NAVIGASI ========== -->
+  <header>
+    <nav aria-label="Navigasi utama">
+      <div class="container">
+        <a href="#beranda" class="logo">Joe Lenry</a>
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#keahlian">Keahlian</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section id="beranda">
+      <div class="container">
+        <p class="hero-label">HALO, SAYA</p>
+        <h1>Joe Lenry</h1>
+        <p class="lead">
+          Mahasiswa Teknik Informatika yang antusias belajar pengembangan web
+          dan membangun solusi digital yang bermanfaat.
+        </p>
+        <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
+        <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+      </div>
+    </section>
+
+    <!-- ========== TENTANG ========== -->
+    <section id="tentang">
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <p class="section-desc">Sedikit perkenalan tentang diri saya.</p>
+        <div class="about-grid">
+          <div>
+            <!-- GANTI paragraf ini dengan cerita dirimu sendiri -->
+            <p>
+              Saya adalah mahasiswa Teknik Informatika yang sedang mendalami
+              dunia pemrograman dan pengembangan web. Saya senang belajar hal
+              baru, memecahkan masalah, dan mengubah ide menjadi aplikasi nyata.
+            </p>
+            <br>
+            <p>
+              Saat ini saya mempelajari HTML, CSS, dan JavaScript untuk
+              membangun website yang rapi, cepat, dan mudah digunakan.
+            </p>
+          </div>
+          <aside class="info-card" aria-label="Data diri">
+            <dl>
+              <dt>Nama</dt>
+              <dd>Joe Lenry</dd>
+              <dt>NPM</dt>
+              <dd>238160026</dd>
+              <dt>Jurusan</dt>
+              <dd>Teknik Informatika</dd>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== KEAHLIAN ========== -->
+    <section id="keahlian">
+      <div class="container">
+        <h2>Keahlian</h2>
+        <p class="section-desc">Teknologi yang sedang saya pelajari dan gunakan.</p>
+        <!-- Tambah atau hapus <li> sesuai kemampuanmu -->
+        <ul class="skills">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Git &amp; GitHub</li>
+          <li>Pemecahan Masalah</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== PROYEK ========== -->
+    <section id="proyek">
+      <div class="container">
+        <h2>Proyek</h2>
+        <p class="section-desc">Beberapa karya yang pernah saya buat.</p>
+        <!-- Ini contoh placeholder. Ganti judul, deskripsi, dan tag dengan proyekmu -->
+        <div class="projects">
+          <article class="project-card">
+            <h3>Landing Page Portofolio</h3>
+            <p>Website portofolio pribadi yang responsif dan dibuat dengan HTML dan CSS.</p>
+            <span class="tag">HTML</span><span class="tag">CSS</span>
+          </article>
+          <article class="project-card">
+            <h3>Nama Proyek 2</h3>
+            <p>Tulis deskripsi singkat proyekmu di sini, misalnya tugas kuliah atau aplikasi kecil.</p>
+            <span class="tag">Teknologi</span>
+          </article>
+          <article class="project-card">
+            <h3>Nama Proyek 3</h3>
+            <p>Tulis deskripsi singkat proyekmu di sini.</p>
+            <span class="tag">Teknologi</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== KONTAK ========== -->
+    <section id="kontak">
+      <div class="container">
+        <h2>Kontak</h2>
+        <p class="section-desc">
+          Punya pertanyaan atau ingin berkolaborasi? Kirim pesan di bawah ini.
+        </p>
+        <!-- Catatan: form ini belum mengirim data ke mana pun (butuh backend atau layanan form) -->
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama kamu" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@contoh.com" required>
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" placeholder="Tulis pesanmu di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <p>&copy; 2026 Joe Lenry &middot; NPM 238160026 &middot; Teknik Informatika</p>
+  </footer>
+</body>
+</html>
